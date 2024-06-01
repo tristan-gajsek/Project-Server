@@ -2,8 +2,9 @@
 
 apt-get update && apt-get upgrade
 
-./firewall.sh
-./docker.sh
-./clone.sh
-./docker-build.sh
-./docker-run.sh
+cd "$(dirname "$0")" || exit 1
+(./firewall.sh)
+(./docker.sh)
+(./clone.sh)
+(./docker-build.sh)
+(./docker-run.sh)
