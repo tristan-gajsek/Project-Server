@@ -10,12 +10,10 @@ git clone https://github.com/dynamo0003/Project-Face-ID
 	cd Project-Website-Frontend || exit 1
 	npm install
 )
-
 (
 	cd Project-Website-Backend || exit 1
 	npm install
 )
-
 (
 	cd Project-Face-ID || exit 1
 	python -m venv venv

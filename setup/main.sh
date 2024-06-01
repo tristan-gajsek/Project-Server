@@ -5,3 +5,5 @@ apt-get update && apt-get upgrade
 ./firewall.sh
 ./docker.sh
 ./clone.sh
+./docker-build.sh
+./docker-run.sh
